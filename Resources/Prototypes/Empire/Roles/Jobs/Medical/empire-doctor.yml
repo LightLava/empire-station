@@ -1,0 +1,26 @@
+- type: job
+  id: EmpireDoctor
+  name: job-name-empire-doctor
+  description: job-description-empire-doctor
+  playTimeTracker: JobEmpireDoctor
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 7200 #2 hrs # Corvax-RoleTime
+  startingGear: EmpireDoctorGear
+  icon: "JobIconMedicalDoctor"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+
+- type: startingGear
+  id: EmpireDoctorGear
+  equipment:
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
+  #storage:
+    #back:
+    #- Stuff

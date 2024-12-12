@@ -1,0 +1,43 @@
+# Best job.
+
+- type: job
+  id: EmpireChiefDoctor
+  name: job-name-empire-chief-doctor
+  description: job-description-empire-chief-doctor
+  playTimeTracker: JobEmpireChiefDoctor
+  # requirements:
+  #   - !type:RoleTimeRequirement
+  #     role: JobChemist
+  #     time: 18000 #5 hrs # Corvax-RoleTime            СДЕЛАТЬ ПОЗДНЕЕ!!!!
+  #   - !type:DepartmentTimeRequirement
+  #     department: Medical
+  #     time: 54000 #15 hrs # Corvax-RoleTime
+  weight: 10
+  startingGear: EmpireChiefDoctorGear
+  icon: "JobIconChiefMedicalOfficer"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Medical
+  - Command
+  - Maintenance
+  - Chemistry
+  - ChiefMedicalOfficer
+  - Brig
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: EmpireChiefDoctorGear
+  equipment:
+    id: CMOPDA
+    ears: ClothingHeadsetCMO
+    belt: ClothingBeltMedicalFilled
+  storage:
+    back:
+    - Flash

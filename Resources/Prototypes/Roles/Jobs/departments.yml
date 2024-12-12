@@ -7,6 +7,7 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  editorHidden: true # Empire change
 
 - type: department
   id: Civilian
@@ -32,6 +33,7 @@
   - Visitor
   - Zookeeper
   - ServiceWorker
+  editorHidden: true # Empire change
 
 - type: department
   id: CentralCommand
@@ -48,8 +50,8 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
-  editorHidden: true
   weight: 120
+  editorHidden: true # Empire change
 
 - type: department
   id: Command
@@ -76,6 +78,7 @@
   - DeathSquad
   primary: false
   weight: 100
+  editorHidden: true # Empire change
 
 - type: department
   id: Engineering
@@ -87,6 +90,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  editorHidden: true # Empire change
 
 - type: department
   id: Medical
@@ -100,6 +104,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  editorHidden: true # Empire change
 
 - type: department
   id: Security
@@ -114,6 +119,7 @@
   - Pilot # Corvax-Pilot
   - Detective
   - Warden
+  editorHidden: true # Empire change
 
 - type: department
   id: Science
@@ -124,6 +130,7 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  editorHidden: true # Empire change
 
 - type: department
   id: Silicon
@@ -133,6 +140,7 @@
   roles:
   - Borg
   - StationAi
+  editorHidden: true # Empire change
 
 - type: department
   id: Specific
@@ -147,3 +155,4 @@
   - Psychologist
   - Pilot # Corvax-Pilot
   primary: false
+  editorHidden: true # Empire change

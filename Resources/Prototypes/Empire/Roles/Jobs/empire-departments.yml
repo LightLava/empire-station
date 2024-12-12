@@ -1,0 +1,21 @@
+- type: department
+  id: EmpireCommand
+  name: department-EmpireCommand
+  description: department-EmpireCommand-description
+  color: "#8b00ff"
+  roles:
+  - Centurion
+  weight: 110
+  editorHidden: false # Empire change
+
+- type: department
+  id: EmpireMedical
+  name: department-EmpireMedical
+  description: department-EmpireMedical-description
+  color: "#8b012f"
+  roles:
+  - EmpireChiefDoctor
+  - EmpireDoctor
+  - EmpireNurse
+  weight: 10
+  editorHidden: false # Empire change    
