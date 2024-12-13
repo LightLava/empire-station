@@ -9,7 +9,7 @@
   - EmpireChaplain
   - Inquisitor
   weight: 110
-  editorHidden: false # Empire change
+  editorHidden: false
 
 - type: department
   id: EmpireMedical
@@ -21,7 +21,7 @@
   - EmpireDoctor
   - EmpireNurse
   weight: 10
-  editorHidden: false # Empire change
+  editorHidden: false
 
 - type: department
   id: EmpireGuard
@@ -34,7 +34,7 @@
   - Legionnaire
   - Triarius
   weight: 10
-  editorHidden: false # Empire change
+  editorHidden: false
 
 - type: department
   id: EmpireEngineering
