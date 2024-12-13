@@ -1,0 +1,31 @@
+- type: job
+  id: Hastatus
+  name: job-name-hastatus
+  description: job-description-hastatus
+  playTimeTracker: JobHastatus
+  weight: 20
+  startingGear: HastatusGear
+  icon: "JobIconSecurityOfficer"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-security
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+
+- type: startingGear
+  id: HastatusGear
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+    id: SecurityCadetPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

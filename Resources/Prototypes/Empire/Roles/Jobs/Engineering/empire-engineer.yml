@@ -1,0 +1,24 @@
+- type: job
+  id: EmpireEngineer
+  name: job-name-empire-engineer
+  description: job-description-empire-engineer
+  playTimeTracker: JobStationEmpireEngineer
+  startingGear: StationEmpireEngineerGear
+  icon: "JobIconStationEngineer"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  extendedAccess:
+  - Atmospherics
+
+- type: startingGear
+  id: StationEmpireEngineerGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+  #storage:
+    #back:
+    #- Stuff

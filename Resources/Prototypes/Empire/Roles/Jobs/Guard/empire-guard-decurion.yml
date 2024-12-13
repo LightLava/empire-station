@@ -1,0 +1,31 @@
+- type: job
+  id: Decurion
+  name: job-name-decurion
+  description: job-description-decurion
+  playTimeTracker: JobDecurion
+  weight: 20
+  startingGear: DecurionGear
+  icon: "JobIconHeadOfSecurity"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-security
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+
+- type: startingGear
+  id: DecurionGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    id: HoSPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltSecurity
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

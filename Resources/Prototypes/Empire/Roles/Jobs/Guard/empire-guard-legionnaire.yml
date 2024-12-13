@@ -1,0 +1,31 @@
+﻿- type: job
+  id: Legionnaire
+  name: job-name-legionnaire
+  description: job-description-legionnaire
+  playTimeTracker: JobLegionnaire
+  weight: 20
+  startingGear: LegionnaireGear
+  icon: "JobIconSecurityCadet"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-security
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+
+- type: startingGear
+  id: LegionnaireGear
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+    id: SecurityCadetPDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltSecurityFilled
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

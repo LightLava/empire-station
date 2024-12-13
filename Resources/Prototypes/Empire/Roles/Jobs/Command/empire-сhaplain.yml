@@ -1,11 +1,11 @@
 ﻿# Центурион
 - type: job
-  id: Centurion
-  name: job-name-centurion
-  description: job-description-centurion
-  playTimeTracker: JobCenturion
+  id: EmpireChaplain
+  name: job-name-empire-сhaplain
+  description: job-description-empire-сhaplain
+  playTimeTracker: JobEmpireChaplain
   weight: 20
-  startingGear: CenturionGear
+  startingGear: EmpireChaplainGear
   icon: "JobIconCaptain"
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
@@ -20,7 +20,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: CenturionGear
+  id: EmpireChaplainGear
   equipment:
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses

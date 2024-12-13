@@ -1,0 +1,36 @@
+- type: job
+  id: EmpireMagus
+  name: job-name-magus
+  description: job-description-magus
+  playTimeTracker: JobEmpireMagus
+  weight: 10
+  startingGear: EmpireMagusGear
+  icon: "JobIconChiefEngineer"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Maintenance
+  - Engineering
+  - Command
+  - External
+  - ChiefEngineer
+  - Atmospherics
+  - Brig
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: EmpireMagusGear
+  equipment:
+    id: CEPDA
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetCE
+    belt: ClothingBeltUtilityEngineering
+  storage:
+    back:
+    - Flash

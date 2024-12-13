@@ -5,6 +5,9 @@
   color: "#8b00ff"
   roles:
   - Centurion
+  - Opсion
+  - EmpireChaplain
+  - Inquisitor
   weight: 110
   editorHidden: false # Empire change
 
@@ -12,10 +15,44 @@
   id: EmpireMedical
   name: department-EmpireMedical
   description: department-EmpireMedical-description
-  color: "#8b012f"
+  color: "#8b00ff"
   roles:
   - EmpireChiefDoctor
   - EmpireDoctor
   - EmpireNurse
   weight: 10
-  editorHidden: false # Empire change    
+  editorHidden: false # Empire change
+
+- type: department
+  id: EmpireGuard
+  name: department-EmpireGuard
+  description: department-EmpireGuard-description
+  color: "#8b00ff"
+  roles:
+  - Decurion
+  - Hastatus
+  - Legionnaire
+  - Triarius
+  weight: 10
+  editorHidden: false # Empire change
+
+- type: department
+  id: EmpireEngineering
+  name: department-EmpireEngineering
+  description: department-EmpireEngineering-description
+  color: "#8b012f"
+  roles:
+  - EmpireMagus
+  - EmpireEngineer
+  weight: 10
+
+- type: department
+  id: EmpireService
+  name: department-EmpireService
+  description: department-EmpireService-description
+  color: "#8b012f"
+  roles:
+  - EmpireBartender
+  - EmpireBotanist
+  - EmpireCook
+  weight: 10

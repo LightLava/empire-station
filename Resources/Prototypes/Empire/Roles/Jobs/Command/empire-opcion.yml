@@ -1,11 +1,11 @@
-﻿# Центурион
+# Опцион
 - type: job
-  id: Centurion
-  name: job-name-centurion
-  description: job-description-centurion
-  playTimeTracker: JobCenturion
+  id: Opсion
+  name: job-name-opcion
+  description: job-description-opcion
+  playTimeTracker: JobOpcion
   weight: 20
-  startingGear: CenturionGear
+  startingGear: OpcionGear
   icon: "JobIconCaptain"
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
@@ -20,7 +20,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: CenturionGear
+  id: OpcionGear
   equipment:
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
@@ -30,4 +30,4 @@
   storage:
     back:
     - Flash
-    # - StationCharter
+    # - StationCharter    

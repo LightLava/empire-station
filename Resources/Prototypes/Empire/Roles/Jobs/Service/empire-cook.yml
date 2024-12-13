@@ -1,0 +1,23 @@
+- type: job
+  id: EmpireCook
+  name: job-name-empire-cook
+  description: job-description-empire-cook
+  playTimeTracker: JobEmpireCook
+  startingGear: EmpireCookGear
+  icon: "JobIconChef"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  - Kitchen
+  extendedAccess:
+  - Hydroponics
+  - Bar
+
+- type: startingGear
+  id: EmpireCookGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    id: ChefPDA
+    ears: ClothingHeadsetService
+    belt: ClothingBeltChefFilled

@@ -3,7 +3,7 @@
   name: job-name-empire-nurse
   description: job-description-empire-nurse
   playTimeTracker: JobEmpireNurse
-  startingGear: EmpireNurserGear
+  startingGear: EmpireNurseGear
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-cmo
   access:

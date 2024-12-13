@@ -1,0 +1,29 @@
+- type: job
+  id: EmpireBartender
+  name: job-name-empire-bartender
+  description: job-description-empire-bartender
+  playTimeTracker: JobEmpireBartender
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 3600 #1 hrs # Corvax-RoleTime
+  startingGear: EmpireBartenderGear
+  icon: "JobIconBartender"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  - Bar
+  extendedAccess:
+  - Kitchen
+  - Hydroponics
+
+- type: startingGear
+  id: EmpireBartenderGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    id: BartenderPDA
+    ears: ClothingHeadsetService
+  #storage:
+    #back:
+    #- Stuff
